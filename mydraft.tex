@@ -15,7 +15,7 @@
 
 \begin{document}
 	
-	\graphicspath{{figures/}}
+	%\graphicspath{{figures/}}
 	
 	\title{This is my \LaTeX}
 	
@@ -136,19 +136,19 @@ Here we are going to deal with the table stuff in \LaTeX. The very first version
 Here we will need to have a specific package called \verb|\usepackage{graphicx, graphics, subcaption}|. Then, we need to define the path of the figures. We need to do it right after \verb|\begin{document}| and the command to do that is \verb|graphicspath{the path goes here}|. Now, we are all set to use packages. 
 
 
-%\begin{figure}
-%	\centering
-%	\includegraphics[width=.5\linewidth]{OldPort.jpg}
-%	\caption{Old Port}
-%	\label{fig:oldport}
-%\end{figure}
-%
-%\begin{figure}
-%	\centering
-%	\includegraphics[width=.5\linewidth]{Matthias.jpg}
-%	\caption{Mont-Royal}
-%		\label{fig:Mont-Royal}
-%\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=.5\linewidth]{OldPort.jpg}
+	\caption{Old Port}
+	\label{fig:oldport}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.5\linewidth]{Matthias.jpg}
+	\caption{Mont-Royal}
+		\label{fig:Mont-Royal}
+\end{figure}
 
 
 I would like to call figure like this. Fig. \ref{fig:oldport}. Now, how to deal with the subfigures. 
